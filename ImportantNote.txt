@@ -1,0 +1,2 @@
+In the resume section of the website, the resume is failed in getting loaded, however one can download the cv/resume by clicking on download cv button and view the document if required.
+Thanks 
