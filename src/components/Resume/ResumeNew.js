@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Button } from "react-bootstrap";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from "../Particle";
-import pdf from "../../Assets/Srijita_Saha_Resume.pdf";
+import pdf from "../../Assets/Srijita_Saha_CV.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-pdfjs.GlobalWorkerOptions.workerSrc ='../../Assets/Srijita_Saha_Resume.pdf.worker.min.js'
+pdfjs.GlobalWorkerOptions.workerSrc ='../../Assets/Srijita_Saha_CV.pdf.worker.min.js'
 
 function ResumeNew() {
   const [width, setWidth] = useState(window.innerWidth);
